@@ -1,0 +1,105 @@
+<!doctype html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang=""> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang=""> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="apple-touch-icon" href="apple-touch-icon.png">
+
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        
+        <style>
+            body {
+                padding-top: 50px;
+                padding-bottom: 20px;
+            }
+        </style>
+        <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+        <link rel="stylesheet" href="css/animated.css">
+        <link rel="stylesheet" href="css/main.css">
+
+        <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+        <script src="js/vendor/sweet-alert2.js"></script>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.9.1/underscore.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/clndr/1.4.7/clndr.min.js"></script>
+
+    </head>
+    <body>
+        <!--[if lt IE 8]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+    <nav class="navbar navbar-inverse navbar-fixed-top descuentate-header" style="min-height: 60px !important;" role="navigation">
+      <div class="container">
+        <div class="navbar-header" >
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">
+            <svg role="img" title="ripley_com" class="svg-icon svg-icon-ripley_com"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#ripley_com">
+              <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#ripley_com">
+                  <svg id="ripley_com" viewBox="0 0 89.29 128.82" width="100%" height="100%">
+                      <path d="M89.27 95.24c0-.63-.8-.82-.8-.82-8-1.48-15.47-7.05-21.12-13a138.74 138.74 0 0 1-20-27.73c-.89-2.07.38-2.29.38-2.29 15.59-6 18.16-21.57 18.16-25.83C65.87 5.83 47.19 0 30.35 0 24 0 21.87.53 15.25.53 7.55.53 2.92 0 1.73 0A1.82 1.82 0 0 0 0 2c0 4.76 10.87-3.33 10.87 12.58v63.48C10.87 92.77.53 88.67.53 92.25c0 1.2 1.32 1.59 2.11 1.59 3.85 0 8.22-.53 14.45-.53 7.83 0 9.81.53 14.32.53 3.31 0 3.84-.66 3.84-1.59 0-4.5-13.91 2.39-13.91-16.7V8.62c0-4 2.92-4 7.16-4 15.24 0 27.3 8.49 27.56 24.52.18 10.87-8 21.19-21.47 21.19a23.53 23.53 0 0 1-4.78-.28c-.66 0-1.33.27-1.33 1.19 0 1.21 1 1.84 2.13 2.17 1.49.65 4.9 1.19 8.45 6.65 9 14.8 19.2 37 42.39 37 8.68 0 7.8-1 7.8-1.82M1.45 124.85a4 4 0 1 1 4 4 4 4 0 0 1-4-4zM10.83 117.8a10.81 10.81 0 0 1 11.05-11 10.74 10.74 0 0 1 9.43 5.34l-5.46 3.17a4.32 4.32 0 0 0-4-2.34 4.84 4.84 0 0 0 0 9.68 4.28 4.28 0 0 0 4-2.34l5.46 3.13a10.65 10.65 0 0 1-9.43 5.38 10.81 10.81 0 0 1-11.05-11.02zM32.35 117.8a11.06 11.06 0 1 1 11.05 11 10.93 10.93 0 0 1-11.05-11zm15.85 0a4.8 4.8 0 1 0-4.8 4.92 4.68 4.68 0 0 0 4.81-4.92zM89.29 115.43v12.81H83V116c0-2.09-1-3.42-3-3.42s-3.25 1.46-3.25 3.92v11.76h-6.23V116c0-2.09-1-3.42-3-3.42s-3.25 1.46-3.25 3.92v11.76H58v-20.89h6.26v1.92c1-1.42 2.79-2.5 5.59-2.5a6.21 6.21 0 0 1 5.46 2.75c1.17-1.67 3.09-2.75 6-2.75 4.86 0 7.98 3.42 7.98 8.64z">
+                      </path>
+                  </svg>
+              </use>
+          </svg>
+          </a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <form class="navbar-form navbar-right" role="form">
+            <div class="form-group">
+              <input type="text" placeholder="Email" class="form-control">
+            </div>
+            <div class="form-group">
+              <input type="password" placeholder="Password" class="form-control">
+            </div>
+            <button type="submit" class="btn btn-success">Sign in</button>
+          </form>
+        </div><!--/.navbar-collapse -->
+      </div>
+    </nav>
+
+
+    <div class="container">
+      <!-- Example row of columns -->
+      <div class="row">
+        <div class="col-md-12">
+          <h2>Heading</h2>
+          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+          <p><a class="btn btn-default" onclick="descuentate()" role="button">OBTERN HASTA UN 50% DE DESCUENTO &raquo;</a></p>
+        </div>
+      </div>
+
+      <hr>
+
+      <footer>
+        <p>&copy; RIPLEY</p>
+      </footer>
+    </div> <!-- /container -->        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
+
+        <script src="js/vendor/bootstrap.min.js"></script>
+
+        <script src="js/main.js"></script>
+
+        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+        <!--<script>
+            (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+            function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+            e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+            e.src='//www.google-analytics.com/analytics.js';
+            r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+            ga('create','UA-XXXXX-X','auto');ga('send','pageview');
+        </script>-->
+    </body>
+</html>
